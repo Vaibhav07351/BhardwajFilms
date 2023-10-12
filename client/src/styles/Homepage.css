@@ -1,0 +1,120 @@
+.banner-img {
+  margin-top: 60px;
+}
+
+.home-page h1 {
+  color: gray;
+  font-family: "Playfair Display", serif;
+}
+
+.home-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+.home-page .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 18rem;
+}
+.home-page .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home-page .card-price {
+  color: green;
+  font-weight: bold;
+}
+.home-page button {
+  border-radius: 0;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.home-page .card-text {
+  color: rgb(90, 89, 89);
+}
+
+.home-page .card img:hover {
+  transform: scale(0.9);
+}
+
+.home-page .card-img-top {
+  height: 230px !important;
+}
+/* ==================
+filters
+============== */
+.filters h4 {
+  margin-top: 100px;
+  color: gray !important;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.337);
+}
+
+.ant-checkbox-wrapper:first-of-type {
+  margin-left: 8px;
+}
+
+.ant-checkbox-wrapper {
+  margin: 2px;
+}
+.ant-radio-wrapper {
+  margin-bottom: 5px !important;
+  margin-left: 10px;
+}
+
+.filters button {
+  background-color: black;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  margin-top: 20px;
+}
+
+.loadmore {
+  color: green;
+  font-weight: bold;
+  font-size: 20px !important;
+}
+
+.custom-height {
+  height: 500px; /* Adjust this value to set the desired height */
+}
+
+.logo{
+  height:55px;
+}
+.navbar{
+  height:60px;
+}
+
+.button{
+  color:black;
+}
+
+
+/* Custom CSS to style the middle arrow icon and whole button on hover */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: invert(100%); /* Set the background color on hover */
+}
+
+.carousel-control-prev:hover .carousel-control-prev-icon, 
+.carousel-control-next:hover .carousel-control-next-icon , 
+{
+   /* Invert the icon color on hover (to keep it black) */
+ background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* styles.css */
+
+/* styles.css */
+.carousel-item img{
+  width: 65%;
+  /* height: 245px; */
+  /* max-height: 245px; */
+  margin: auto; 
+  display: block;
+  }

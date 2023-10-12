@@ -1,0 +1,65 @@
+npm init -y
+npm install express
+npm i colors
+npm i nodemon
+
+to change syntax of require
+add "type": "module", in package.json.. Now use import
+
+npm i dotenv -> for env file  loads environment variables from a .env file into process.env
+npm i morgan-> tells which (shows) api request in console, which url hit
+
+npm i mongoose
+mongodb compass open, username and pass create
+mongodb atlas login 
+create database, collection , whitelist 0.0.0.0/0 so that anyone can use database
+connection establish with local compass by entering its url
+
+npm i bcrypt   //password hash to store in database
+npm i jsonwebtoken //so that our application is secure
+JWT_SECRET key in .env file add
+//now protect all routes using the created token after correct login
+
+React
+cd client
+npm i react-router-dom
+npm i react-icons
+
+SEO
+cd client
+npm i react-helmet
+Layout.js changed,and in each page <layout +  title add here > 
+
+Register page
+cd client
+npm i react-toastify  -> animated notification shows in website
+npm i react-hot-toast
+npm i axios -> to get data from form to database
+
+In client , .env file to connect to backend at port 8080
+cd mernproject , install below packages in backend in node's server
+npm i concurrently -> with only 1 command, can run 2 applications
+npm i cors -> to remove any cross origin error with concurrently(b/w port 8080 and 3000)
+package.json,inside scripts add 
+1.  client-> from root only react's application access
+2.  dev -> add both application links in it, server + client
+from cd mernproject only run now 
+
+npm i slugify -> clean url for better SEO, replaces whitespaces, etc.. with abc-def
+
+npm i express-formidable -> for photo (or any file) upload in database easily
+
+
+npm i @sendgrid/mail
+
+
+npm i braintree
+In .env file add the merchant,public,private keys
+
+cd client
+npm i braintree-web-drop-in-react ->payment gateway pre created for react frontend
+
+cd client,  npm i antd  ->precreated designs, Modal popup needed by us in Create category
+css file in client's index.js
+
+cd client,  npm i moment -> to show time and date in formatted form inside orders page
